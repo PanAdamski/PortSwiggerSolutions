@@ -11,6 +11,9 @@ python3 solution.py https://<ID>.web-security-academy.net <collab ID>9.oastify.c
 
 Wrong
 ```
+python3 solution.py https://<ID>.web-security-academy.net/ <collab ID>9.oastify.com
 python3 solution.py https://<ID>.web-security-academy.net http://<collab ID>9.oastify.com
+python3 solution.py https://<ID>.web-security-academy.net/ http://<collab ID>9.oastify.com
 python3 solution.py <ID>.web-security-academy.net http://<collab ID>9.oastify.com
+python3 solution.py <ID>.web-security-academy.net/ http://<collab ID>9.oastify.com
 ```
