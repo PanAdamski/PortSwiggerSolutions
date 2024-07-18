@@ -1,2 +1,3 @@
 # PortSwiggerSolutions
-I will more or less systematically post automatic solutions to challenges from the portswigger platform
+I will more or less systematically post automatic solutions to challenges from the portswigger platform.
+https://portswigger.net/web-security/all-labs
