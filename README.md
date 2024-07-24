@@ -4,7 +4,7 @@ https://portswigger.net/web-security/all-labs
 
 Installation
 ```
-pip3 install requests re sys time
+pip3 install requests re sys time socket pytesseract pyautogui http.client selenium bs4 PIL webbrowser
 ```
 ```
 apt install exiftool
